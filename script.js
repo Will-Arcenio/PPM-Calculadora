@@ -3,7 +3,6 @@ function calcular() {
     let n1 = parseFloat(document.getElementById('numero1').value);
     let n2 = parseFloat(document.getElementById('numero2').value);
     let op = parseFloat(document.getElementById('operacao').value);
-    console.log(op);
     let re = 0;
 
     // Valida se realmente são valores numéricos
