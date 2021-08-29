@@ -1,0 +1,28 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+}
+body {
+    background-color: rgb(34, 32, 32) !important;
+}
+.title {
+    padding-bottom: 30px;
+}
+.conteudo {
+    padding-bottom: 20px;
+}
+.botao {
+    margin-bottom: 20px;
+    background-color: #c2783c;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px 15px;
+}
+input, 
+select {
+    background-color: #585858 !important;
+    border: none;
+    width: 100%;
+    padding: 5px 10px;
+}
