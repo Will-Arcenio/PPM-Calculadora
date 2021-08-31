@@ -6,15 +6,15 @@ function calcular() {
     let re = 0;
 
     // Valida se realmente são valores numéricos
-    if (isNaN(n1) || n1 == '') {
+    if (isNaN(n1)) {
         return alert('Digite um número válido para o primeiro valor.');
     }
-    if (isNaN(n2) || n2 == '') {
+    if (isNaN(n2)) {
         return alert('Digite um número válido para o segundo valor.');
     }
 
     // Valida operação
-    if (isNaN(op) || op == '') {
+    if (isNaN(op)) {
         return alert('Operação inválida');
     }
 
@@ -29,6 +29,9 @@ function calcular() {
             re = n1 * n2;
             break;
         case 4:
+            if (n2 === 0) {
+                return alert('O divisor não pode ser zero (0).');
+            }
             re = n1 / n2;
             break;
         default:
