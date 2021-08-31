@@ -40,3 +40,11 @@ function calcular() {
 
     document.getElementById('resultado').innerHTML = re.toFixed(2);
 }
+
+
+function limpar() {
+    let n1 = document.getElementById('numero1').value = '';
+    let n2 = document.getElementById('numero2').value = '';
+    let op = document.getElementById('operacao').value = 0;
+    document.getElementById('resultado').innerHTML = '0.00'
+}

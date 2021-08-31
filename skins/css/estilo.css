@@ -18,6 +18,22 @@ body {
     border-radius: 5px;
     color: #FFF;
     padding: 5px 15px;
+    opacity: 0.5;
+}
+.botao:hover {
+    opacity: 1;
+}
+.botao-clear{
+    margin-bottom: 20px;
+    background-color: #b36060;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    opacity: 0.5;
+}
+.botao-clear:hover {
+    opacity: 1;
 }
 input, 
 select {
